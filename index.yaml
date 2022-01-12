@@ -1,0 +1,44 @@
+---
+name: MongoDB
+description: This course explains MongoDB concepts and how to get started with using MongoDB.
+branding:
+    logo: _images/mongodb_logo.png
+    banner: 
+    textColor: '#000000'
+    header:
+        text: MongoDB
+        logo: _images/mongodb_logo.png
+license: 
+duration: 60 mins
+categories:
+    - Backend
+intro: readme.md
+documentation: 
+commands:
+    - name: .
+      cmd: 
+      cwd: /home/student
+      stepMessage: .
+environment:
+    terminal:
+        name: Terminal
+        enabled: true
+    ide:
+        name: IDE
+        enabled: true
+        url: '{{ IDE.url }}'
+    application:
+        name: StarterKit
+        url: '{{ DNS.host }}/starterkit'
+        enabled: false
+config:
+    launchBtn:
+        buttonLabel: Launch
+    execCmd : 
+        autoExecute: false
+        buttonLabel: Execute Commands
+backend:
+    service: MongoDB
+tileInfo: []
+
+

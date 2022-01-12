@@ -1,0 +1,1 @@
+This course explains MongoDB concepts and how to get started with using MongoDB.
